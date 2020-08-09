@@ -18,6 +18,7 @@ public class TestAnnotation {
      * @Param: 
      * @return: 
      * @Date: 2020/8/9
+     * @throws: 
      */
     public static int testInt(){return 1;}
 }
