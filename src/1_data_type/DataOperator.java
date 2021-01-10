@@ -49,9 +49,9 @@ public class DataOperator {
             int x = 10;
             int y = 20;
             int result = ++x + y--; // 11 + 20 = 31
-            System.out.println("result:"+result); // 31
-            System.out.println("x:"+x); // 11
-            System.out.println("y:"+y); // 19
+            System.out.println("result:" + result); // 31
+            System.out.println("x:" + x); // 11
+            System.out.println("y:" + y); // 19
             // 30++; // 错误写法！常量不可以使用++或者--
         }
     }
