@@ -1,5 +1,3 @@
-package one_language_overview;
-
 /**
  * @program: base
  * @description: 源文件中包含多个类

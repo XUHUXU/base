@@ -1,5 +1,3 @@
-package one_language_overview;
-
 /**
  * @program: base
  * @description: 注释

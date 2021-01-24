@@ -1,5 +1,3 @@
-package one_language_overview;
-
 /**
  * @program: base
  * @description: 垃圾回收机制
