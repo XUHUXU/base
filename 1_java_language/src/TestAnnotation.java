@@ -9,6 +9,7 @@ public class TestAnnotation {
         // 单行注释
         /* 多行注释 */
         int t = testInt();
+        System.out.println(t);
     }
 
     /**
