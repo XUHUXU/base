@@ -1,26 +1,26 @@
 /**
  * @program: base
- * @description: ×¢ÊÍ
+ * @description: æ³¨é‡Š
  * @author: xuhu
  * @create: 2020-08-09 15:14
  **/
 public class TestAnnotation {
     public static void main(String[] args) {
-        // µ¥ĞĞ×¢ÊÍ
-        /* ¶àĞĞ×¢ÊÍ */
+        // å•è¡Œæ³¨é‡Š
+        /* å¤šè¡Œæ³¨é‡Š */
         int t = testInt();
         System.out.println(t);
 
         /**
-         *  ÎÄµµ×¢ÊÍ£¬JavaDoc¹¤¾ß²âÊÔ
+         *  æ–‡æ¡£æ³¨é‡Šï¼ŒJavaDocå·¥å…·æµ‹è¯•
          */
         int doc = 123;
     }
 
     /**
-     * @Description: ÎÄµµ×¢ÊÍ²âÊÔpublicĞŞÊÎ·û
+     * @Description: æ–‡æ¡£æ³¨é‡Šæµ‹è¯•publicä¿®é¥°ç¬¦
      * @Param:
-     * @return: int ÊıÖµ
+     * @return: int æ•°å€¼
      * @Date: 2020/8/9
      * @throws:
      */
@@ -29,9 +29,9 @@ public class TestAnnotation {
     }
 
     /**
-     * @Description: ÎÄµµ×¢ÊÍ²âÊÔprotectedĞŞÊÎ·û
+     * @Description: æ–‡æ¡£æ³¨é‡Šæµ‹è¯•protectedä¿®é¥°ç¬¦
      * @Param:
-     * @return: int ÊıÖµ
+     * @return: int æ•°å€¼
      * @Date: 2021/8/16
      * @throws:
      */
@@ -40,13 +40,13 @@ public class TestAnnotation {
     }
 
     /**
-     * @Description: ÎÄµµ×¢ÊÍ²âÊÔprivateĞŞÊÎ·û
+     * @Description: æ–‡æ¡£æ³¨é‡Šæµ‹è¯•privateä¿®é¥°ç¬¦
      * @Param:
      * @return:
      * @Date: 2021/8/16
      * @throws:
      */
     private String testPrivate(int n) {
-        return "²âÊÔÎÄµµ×¢ÊÍ";
+        return "æµ‹è¯•æ–‡æ¡£æ³¨é‡Š";
     }
 }
