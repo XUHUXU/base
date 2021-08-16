@@ -18,5 +18,9 @@ public class DataRange {
            float f = 1.2;
         */
         float f = 1.2F;
+
+        // 强制类型转换
+        int i = (int)6000000000L;
+        System.out.println(i);  //  1705032704  数据溢出
     }
 }
