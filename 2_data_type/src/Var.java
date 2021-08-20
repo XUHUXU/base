@@ -22,5 +22,11 @@ public class Var {
         System.out.println(intArray[0]);
 
         // var a ;  Cannot infer type:'var' on variable without initializer (无法推断类型：没有初始化程序的变量上的“var”)
+
+        // 数组的使用
+        var strArray1 = new String[1];
+        var strArray2 = new String[]{"XUHU"};
+        //   var strArray3 = {"a","b"};   报错，无法使用静态初始化简洁语法执行初始化数组
+
     }
 }
